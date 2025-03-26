@@ -1,0 +1,90 @@
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+
+Notification.Notify("Credits", "HeltM1n", "https://create.roblox.com/store/asset/111094776565721/imageeryre?keyword=imageeryre&pageNumber=1&pagePosition=0", {
+    Duration = 2,       
+    Main = {
+        Rounding = true,
+    }
+});
+
+Notification.WallNotification("Welcome!", "Welcome to, ZEEN HUB", {
+        Duration = 3,
+
+        TitleSettings = {
+            Enabled = false
+        }
+    });
+    
+ --clear notifications 
+ --Notification.ClearAllNotifications()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Pop%20UI%20Lib", true))()
+
+ local ui = library:Tab("Tab")
+ 
+ ui:Button("MVSD ZEPHYR", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealAvrwm/Projects/main/Xeno%20MVSD%20script.lua", true))()
+     print("yes")
+ end)
+
+ ui:Button("MVSD FREAKBOB", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/BeanBotWare/FreakBob/refs/heads/main/FreakBob"))()
+    print("yes")
+end)
+
+ui:Button("MVSD STRIFE", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Strife-cc/STRIFE/refs/heads/main/MVSD.lua'))()
+    print("yes")
+end)
+
+ui:Button("MM2", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring'))()
+    print("yes")
+end)
+
+ui:Button("KAT", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui")))
+    print("yes")
+end)
+
+ui:Button("INF YIELD", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    print("yes")
+end)
+
+ui:Button("BLADEBALL", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/SoyAdriYT/PitbullHubX/refs/heads/main/PitbullHubX.lua", true))()
+    print("yes")
+end)
+
+ui:Button("NATURAL DISASTERS WIP ", function()
+    print("yes")
+end)
+ 
+ ui:Toggle("Toggle", function(arg)
+     print(arg)
+ end)
+ 
+ ui:Slider("Slider", 0, 100, function(arg)
+ end)
+ 
+ ui:Textbox("Textbox", function(arg)
+     pcall(function()
+     end)
+ end)
+ 
+ 
+ ui:Dropdown("Dropdown", {"Yes","No","IDK"}, function(arg)
+     if arg == "Yes" then
+             print("Yes")
+     elseif arg == "No" then
+           print("No")
+   end
+ end)
